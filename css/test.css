@@ -1,0 +1,50 @@
+body {
+  font-family: 'Inter', sans-serif;
+  
+}
+.container {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+a {
+  color: inherit;
+}
+.test-wrap {
+  padding: 50px 0;
+}
+.test {
+  text-align: center;
+  color: #fff;
+  height: 50px;
+  background-color: red;
+  margin: 20px 0;
+}
+
+.test {
+  text-align: center;
+  color: #fff;
+  height: 50px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.test-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test-inline-block {
+  display: inline-block;
+}
+.inline-flex {
+  display: inline-flex;
+}
+
+/* .test-wrap > * {
+  border: 10px solid #000;
+} */
+
+.test-block ~ .test {
+  border: 10px solid #000;
+}
